@@ -1,6 +1,6 @@
 # ICPHM23-Data-Challenge
 
-### Author: Eunice Ofori-Addo
+Author: Eunice Ofori-Addo
 
 ## Introduction
 This project involves in participating in the IEEE Conference on Prognostics and Health Management (ICPHM) 2023 data challenge on vibration signal analysis for health monitoring of industrial systems.
