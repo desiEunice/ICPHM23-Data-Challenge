@@ -16,3 +16,7 @@ The 1D-CNN architecture and parameter settings were obtained after several exper
 
 ## Results
 After the results of the data challenge were announced, the proposed model was found to have a 98.283% accuracy on the test data provided.
+
+## References
+- Enshaei, H. Chen, F. Naderkhani, J. Lin, S. Shahsafi, S. Giliyana, M. Mirzaei, S. Li, C. Hansen, J. Rupe. “ICPHM’23 Benchmark Vibration Dataset Applicable in Machine Learning for Systems’ Health Monitoring”,In proceeding of IEEE Conference on Prognostics and Health Management (ICPHM ),2023.
+- Chen, Chih-Cheng, et al. "An improved fault diagnosis using 1d-convolutional neural network model." Electronics 10.1 (2020): 59.
