@@ -9,7 +9,10 @@ Industrial systems are susceptible to defects and failures. To mitigate the risk
 
 ## Data Description
 The ICPHM’23 benchmark vibration dataset was provided for this data challenge. The dataset includes vibration signals from normal and four different types of fault conditions and their corresponding ground truth labels. The four fault conditions are surface wear, crack, chipped and missing tooth. Data is provided for two different operational condition: 1500-rpm motor speed and 10Nm load and 2700-rpm motor speed and 25Nm load. My work uses only the x-direction of vibration dataset with window size of 200. Dataset consists of 50,000 samples.
-For the data preprocessing step of my work, I converted the sequence of data from its two- dimensional format to the required three-dimensional format of the CNN input layer.
+
 
 ## Proposed Model Architecture
 The 1D-CNN architecture and parameter settings were obtained after several experiments. This 1D-CNN model architecture is a variant of the model structure proposed by Chen, Chih-Cheng, et al. in their paper “An improved fault diagnosis using 1D-CNN model”. The architecture of my model comprises of five convolutional layers with decreasing kernel size, four pooling layers and two fully connected layers.
+
+## Results
+After the results of the data challenge were announced, the proposed model was found to have a 98.283% accuracy on the test data provided.
